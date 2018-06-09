@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dushyant Academy</string>
+    <string name="punch_line">Offering free education for empowerment</string>
+    <string name="address">F 116, Ghazipur Village, Delhi 110096</string>
+    <string name="email">dushyant_academy@gmail.com</string>
+    <string name="phone">+919311567769</string>
+    <string name="hours_of_operation">10:00 AM to 06:00 PM</string>
+    <string name="about">About</string>
+    <string name="description">We are not for profit NGO Actively working towards
+        empowerment of under privileged children  by providing them access to free education
+    and resources.</string>
+</resources>

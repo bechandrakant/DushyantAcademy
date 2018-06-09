@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/siksha" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/spacing_default"
+            android:text="@string/punch_line"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:src="@drawable/ic_location" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="map"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:text="@string/address"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:src="@drawable/ic_local_phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:text="@string/phone"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:src="@drawable/ic_mail" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:text="@string/email"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:src="@drawable/ic_access_time" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/spacing_default"
+                android:paddingTop="@dimen/spacing_default"
+                android:text="@string/hours_of_operation"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:layout_marginTop="@dimen/spacing_default"
+            android:scaleType="centerCrop"
+            android:src="@drawable/edu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/about"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_extra_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_default"
+            android:text="@string/description"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</ScrollView>
