@@ -34,7 +34,7 @@
             android:paddingLeft="@dimen/spacing_default"
             android:text="@string/punch_line"
             android:textColor="@color/colorAccent"
-            android:textSize="14sp" />
+            android:textSize="@string/text_size_small" />
 
         <LinearLayout
             android:layout_width="match_parent"
