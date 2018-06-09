@@ -36,92 +36,52 @@
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/text_size_small" />
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="@dimen/spacing_default"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/address"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:src="@drawable/ic_location" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="map"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:text="@string/address"
-                android:textSize="@dimen/text_size_large"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_local_phone"
+            android:drawablePadding="@dimen/spacing_default"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/phone"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:src="@drawable/ic_local_phone" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="phone"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:text="@string/phone"
-                android:textSize="@dimen/text_size_large"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="@dimen/spacing_default"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/email"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:src="@drawable/ic_mail" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="email"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:text="@string/email"
-                android:textSize="@dimen/text_size_large"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:src="@drawable/ic_access_time" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/spacing_default"
-                android:paddingTop="@dimen/spacing_default"
-                android:text="@string/hours_of_operation"
-                android:textSize="@dimen/text_size_large"
-                android:textStyle="bold" />
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_access_time"
+            android:drawablePadding="@dimen/spacing_default"
+            android:paddingLeft="@dimen/spacing_default"
+            android:paddingTop="@dimen/spacing_default"
+            android:text="@string/hours_of_operation"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="match_parent"
